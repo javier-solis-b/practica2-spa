@@ -1,0 +1,39 @@
+.header {
+    background-color: #b2d4f7;
+    /* Fondo azul claro */
+    color: #007bff;
+    /* Letras azul más oscuro */
+    text-align: center;
+    padding: 15px;
+}
+
+.container{
+    width: 370px; /* Ancho del contenedor */
+    height: 250; /* Alto del contenedor */
+    margin: 30px; /* Margen alrededor del contenedor */
+    border: 2px solid #808080; /* Borde alrededor del contenedor */
+    padding: 20px; /* Espacio interno del contenedor */
+    background-color: rgb(220, 220, 220);
+}
+
+.input-container {
+    margin-left: 50px; 
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.result-container {
+    margin-left: 50px; 
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input-container select,
+.input-container button {
+    margin-left: 1px; 
+    display: inline-block;
+    vertical-align: middle;
+   
+}

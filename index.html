@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Práctica 2 - RFC</h1>
+    </header>
+    <!-- INiCIO CONTENEDOR RFC-->
+    <div class="container">
+
+        <div class="input-container">
+
+            <label for="nombre">NOMBRE:</label>
+            <br>
+            <input type="text" id="nombre">
+            <br>
+        </div>
+        <div class="input-container">
+            <br>
+            <label for="ape_p">APELLIDO PATERNO:</label>
+            <br>
+            <input type="text" id="ape_p">
+            <br>
+        </div>
+        <div class="input-container">
+            <br>
+            <label for="ape_m">APELLIDO MATERNO:</label>
+            <br>
+            <input type="text" id="ape_m">
+            <br>
+        </div>
+        <div class="input-container">
+            <br>
+            <label for="fecha_nac">FECHA DE NACIMIENTO:</label>
+            <br>
+            <input type="date" id="fecha_nac">
+            <br>
+            <br>
+            <button id="generar">GENERAR RFC</button>
+        </div>
+        <br>
+        <div class="result-container">
+            <label for="resultado">RFC:</label>
+            <br>
+            <input type="text" id="result" readonly>
+        </div>
+    </div>
+    <!-- FIN CONTENEDOR RFC-->
+
+    <header class="header">
+        <h1>AJAX - API REST</h1>
+    </header>
+
+    <!-- INiCIO CONTENEDOR AJAX-->
+    <div class="container">
+
+        <div class="input-container">
+            <button id="consultar">CONSULTAR API REST</button>
+        </div>
+        <div class="result-container">
+            <br>
+            <label for="name">NOMBRE:</label>
+            <br>
+            <input type="text" id="name" readonly>
+            <br>
+        </div>
+        <br>
+        <div class="result-container">
+            <label for="email">EMAIL:</label>
+            <br>
+            <input type="text" id="email" readonly>
+
+        </div>
+    </div>
+    <!-- FIN CONTENEDOR AJAX-->
+
+    <footer>
+        <p>Francisco Javier Solis Bamaca</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
